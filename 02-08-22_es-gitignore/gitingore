@@ -1,0 +1,32 @@
+# Prerequisiti
+* .d
+
+# File oggetto compilati
+* .slo
+* .lo
+* .o
+* .oggetto
+
+# Intestazioni precompilate
+* .gch
+* .pch
+
+# Librerie dinamiche compilate
+* .so
+* .dylib
+* .dll
+
+# File dei moduli Fortran
+* .mod
+* .smod
+
+# Librerie statiche compilate
+* .lai
+* .la
+* .a
+* .lib
+
+# Eseguibili
+* .exe
+* .fuori
+* .app
