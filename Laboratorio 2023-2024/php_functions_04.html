@@ -1,0 +1,10 @@
+<?php declare(strict_types=1); // strict requirement
+
+function addNumbers(int $a, int $b) {
+  return $a + $b;
+}
+echo addNumbers(5, "5 days"); 
+// since strict is enabled and "5 days" is not an integer, an error will be thrown
+?>
+
+output="PHP Fatal error: Uncaught TypeError: Argument 2 passed to addNumbers() must be of the type integer, string given, called in /home/bWN0Ml/prog.php on line 6 and defined in /home/bWN0Ml/prog.php:3 Stack trace: #0 /home/bWN0Ml/prog.php(6): addNumbers(5, '5 days') #1 {main} thrown in /home/bWN0Ml/prog.php on line 3"
