@@ -28,7 +28,7 @@ class Libro {
 }
 
 $libro1 = new Libro();
-$libro1->inizializza("harry potter", 11.05, 3, 450, "Mondadori");
+$libro1->inizializza("harry potter", 27, 5, 450, "Mondadori");
 $libro1->mostra();
 echo "-----\n";
 $libro1->applicaSconto();
